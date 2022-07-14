@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	padding-top: 10px;
+	padding-bottom: 200px;
+	background: #99c4c4;
+}
+.container .calc{
+	background: #4f4d44;
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 272px;
+	height: 292px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+.window ._display{
+	width: 258px;
+	height: 60px;
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-bottom: 6px;
+	background: #95b3a1;
+	color: #312828;
+	border: 1px solid #000;
+	border-radius: 12px;
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	word-wrap: break-word;
+	overflow-x:hidden;
+}
+.table{
+	background: #dbd2ce;
+	list-style-type: none;
+	padding-left: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-bottom: 10px;
+	border: 1px solid #000;
+	border-radius: 12px;
+}
+.table .row1, .row2, .row3, .row4{
+	display: flex;
+}
+.table .btn{
+	margin-top: 10px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	border: 0.5px solid #000;
+	border-radius: 4px;
+	box-shadow: 1px 5px 5px gray;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 17px;
+	text-align: center;
+	background-color: gray;
+}
+.table .btn:hover{
+	font-size: 13px;
+	border: 2px solid goldenrod;
+	background: gold;
+}
