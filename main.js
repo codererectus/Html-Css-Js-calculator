@@ -23,6 +23,9 @@ function getClickText(text) {
 	    if ((result.slice(-1) === "=") && (countOfEquals == 1)) {
 	    	try{
 		    	result = eval(result.slice(0, -1));
+		    	if (isNaN(result)){
+		    		result = Infinity
+		    	}
 		    	console.log(result);
 		    	display_window.innerText = result;
 		    }catch{
